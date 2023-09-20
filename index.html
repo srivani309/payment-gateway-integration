@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FundRaiser</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </head>
+  <body style="background-color: orange">
+    <style></style>
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand"><h2>Donation.io</h2></a>
+      <form class="form-inline">
+        <h3 class="ml-3" style="font-size: large">
+          <a href="contact.html">Contact Us</a>
+        </h3>
+        <h3 class="ml-3" style="font-size: large">
+          <a href="about.html">About us</a>
+        </h3>
+      </form>
+    </nav>
+
+    <div class="container">
+      <div class="row text-center d-flex">
+        <div class="col-12 align-items-center" style="margin-top: 15%">
+          <h3 style="font-family: 'Libre Baskerville', serif" id="kk">
+            Giving is the <br />greatest <br />act of grace <br />
+            <button
+              style="background-color: blue"
+              class="btn btn-primary mt-5"
+              id="paymentclick"
+              onclick="Open()"
+            >
+              <a
+                href="https://pages.razorpay.com/donateio"
+                class="hero-btn"
+                style="color: White"
+              >
+                Donate</a
+              >
+            </button>
+          </h3>
+          <form>
+            <!-- <script>
+              var options = {
+                key: "rzp_test_eLmkgFjQUnOfuC",
+                amount: 100, // Example: 2000 paise = INR 20
+                name: "Donation.Io",
+                description: "Good For Humanity",
+                image: "img.png", // COMPANY LOGO
+                handler: function (response) {
+                  console.log(response);
+                  // AFTER TRANSACTION IS COMPLETE YOU WILL GET THE RESPONSE HERE.
+                },
+                prefill: {
+                  name: "ABC", // pass customer name
+                  email: "A@A.COM", // customer email
+                  contact: "+915433234688", //customer phone no.
+                },
+                notes: {
+                  address: "address", //customer address
+                },
+                theme: {
+                  color: "#15b8f3", // screen color
+                },
+              };
+
+              var propay = new Razorpay(options);
+              function Open() {
+                propay.open();
+              }
+            </script> -->
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- </main> -->
+  </body>
+</html>

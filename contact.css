@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-weight: bolder;
+  line-height: 3;
+  padding: 0 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: blue;
+}
+
+header {
+  text-align: right;
+  padding: 8px;
+  background-color: white;
+  color: white;
+  font-size: large;
+
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+header img {
+  float: left;
+}
+
+.container {
+  color: white;
+  font-size: x-large;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: orange;
+  width: 100vw;
+  padding-top: 40px;
+  height: 84vh;
+}
+
+.box {
+  color: rgb(0, 0, 100);
+  background-color: white;
+  margin-left: 50px;
+  width: 90vw;
+  height: 75vh;
+  border: 3px darkblue inset;
+  border-radius: 25px;
+}
+
+.contact {
+  width: 50vw;
+  height: 10vh;
+
+  margin: 15px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+#ex {
+  float: right;
+  margin-top: 50px;
+  width: 600px;
+  height: 350px;
+}
